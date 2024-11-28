@@ -9,3 +9,9 @@ e) npm i hbs
 f) add .gitignore
 
 Step2: create index.js file and run cmd: nodemon index.js
+
+Step3: to run with hbs
+cmd: nodemon index.js -e js,hbs
+
+Step4: install middleware
+cmd: npm i body-parser
