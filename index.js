@@ -27,7 +27,7 @@ app.post("/add",encoder, async (req,res)=>{
         await data.save()
         res.redirect("/")
     } catch(error) {
-        console.log(error);   
+        console.log(error);    
     }
 })
 
